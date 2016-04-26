@@ -1,4 +1,4 @@
-TODO by Zoe:
+##TODO by Zoe:
 
 1) google analytics
 2) xml - sitemap stuff
