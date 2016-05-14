@@ -1,12 +1,8 @@
 ##TODO by Zoe:
 
-###1) google analytics
-###2) xml - sitemap stuff
-###3) SEO meta tags
-###4) SSL
-###5) creative 404 page
-###6) blog
-###7) webgl
-###8) game gallery
-###9) personal files
-###10) link to others
+###1) xml - sitemap stuff
+###2) SEO meta tags
+###3) blog
+###4) game gallery
+###5) personal files
+###6) link to others
