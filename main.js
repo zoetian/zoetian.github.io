@@ -1,10 +1,9 @@
 "use strict";
 
-(function(){
+(function() {
 	// c: context, deltaX, deltaY: drawing speed
 	var canvas, c, lineX, lineY, begin, deltaX, deltaY;
-	function scale() 
-	{
+	function scale() {
 		canvas.height = self.innerHeight;
 		canvas.width = self.innerWidth;
 		lineX = canvas.width * 0.382;
@@ -13,29 +12,32 @@
 		deltaX = canvas.height / 1500;
 		deltaY = canvas.width / (1500 - 500);
 	}
-	window.addEventListener("load", function() {
+	window.addEventListener("load",function() {
 		canvas = document.getElementById("canvas");
 		c = canvas.getContext("2d");
 		begin = performance.now();
 		scale();
+		// e: current time in milliseconds
 		function frame(e) {
 			e -= begin;
-			var f = Math.max(0,e - 500);
-			e = Math.min(canvas.height,deltaX * e);
-			if(e < canvas.height)
+			// f: lineY x coordinates
+			var f = Math.max(0, e - 500);
+			e = Math.min(canvas.height, deltaX * e);
+			if(e < canvas.height) {
 				window.requestAnimationFrame(frame);
+			}
 			c.lineWidth = 5;
 			c.beginPath();
-			c.moveTo(lineX,0);
-			c.lineTo(lineX,e);
+			c.moveTo(lineX, 0);
+			c.lineTo(lineX, e);
 			c.stroke();
-			f = Math.min(canvas.width,deltaY * f);
+			f = Math.min(canvas.width, deltaY * f);
 			c.beginPath();
-			c.moveTo(0,lineY);
-			c.lineTo(f,lineY);
+			c.moveTo(0, lineY);
+			c.lineTo(f, lineY);
 			c.stroke();
 		}
 		window.requestAnimationFrame(frame);
 	});
-	window.addEventListener("resize",scale);
+	window.addEventListener("resize", scale);
 })();
