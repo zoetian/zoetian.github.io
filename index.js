@@ -124,7 +124,9 @@ animation();
 		function frame(e){
 			e -= begin;
 			var f = Math.max(0,e - 500);
-			e = Math.min(canvas.height,deltaX * e);
+			e = deltaX * e;
+			if(e < canvas.height)
+				window.requestAnimationFrame(frame);
 			c.lineWidth = 5;
 			c.beginPath();
 			c.moveTo(lineX,0);
@@ -135,7 +137,6 @@ animation();
 			c.moveTo(0,lineY);
 			c.lineTo(f,lineY);
 			c.stroke();
-			window.requestAnimationFrame(frame);
 		}
 		window.requestAnimationFrame(frame);
 	});
