@@ -1,0 +1,440 @@
+.widget_calendar{
+    background-color: #999999 !important;
+    border: 1px solid #A2A3A4 !important;
+    border-radius: 0 0 0 0 !important;
+    box-shadow: 0 2px 4px rgba(50, 50, 50, 0.63);
+    float: left;
+    margin-bottom: 15px !important;
+}
+
+.widget_calendar .widget_inner {
+    float: left;
+    width: 100%;
+}
+
+.widget_calendar #calendar_wrap {
+    float: left;
+    width: 100%;
+}
+
+.widget_calendar #wp-calendar {
+    float: left;
+    width: 100%;
+}
+
+.wp_calander{
+    margin-bottom: 15px;
+    float: left;
+}
+
+.widget_calendar #calendar_wrap ul li{
+    list-style: none;
+}
+
+#calendar_wrap .ui-datepicker-header{
+    background-color: #6d6e72;
+    float: left;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 15px;
+    padding: 6px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 96.2%;
+    width: 96.5% \9;
+    width: 96.5% \0/;
+    /*width: 100% \9;*/
+}
+
+#calendar_wrap .ui-datepicker-title {
+    float: left;
+    width: 84%;
+}
+
+#calendar_wrap .ui-datepicker-prev span {
+    background: url("../images/arrow-new.png") no-repeat scroll 0 0 transparent;
+    color: #E9E2D4 !important;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 18px;
+    margin-top: 0;
+    text-indent: -9999px;
+    width: 18px;
+    _background-color: none;
+    *background-color: none;
+}
+
+#calendar_wrap .ui-datepicker-prev span:hover {
+    background: url("../images/arrow-prev-hover.png") no-repeat scroll 0 0 transparent;
+    color: #E9E2D4 !important;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 18px;
+    margin-top: 0;
+    text-indent: -9999px;
+    width: 18px;
+}
+
+#calendar_wrap .ui-datepicker-next span {
+    background: url("../images/arrow-new2.png") no-repeat scroll 0 0 transparent;
+    color: #E9E2D4 !important;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 17px;
+    margin-top: 0;
+    text-indent: -9999px;
+    width: 18px;
+}
+
+#calendar_wrap .ui-datepicker-next span:hover {
+    background: url("../images/arrow-next-hover.png") no-repeat scroll 0 0 transparent;
+    color: #E9E2D4 !important;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 17px;
+    margin-top: 0;
+    text-indent: -9999px;
+    width: 18px;
+}
+
+#calendar_wrap table.wp-cal-datepicker-calendar {
+    border-collapse: collapse;
+    margin: 0;
+    width: 100%;
+    float: left;
+}
+
+#calendar_wrap .wp-cal-datepicker-calendar tr th{
+    font-size: 12px;
+    line-height: 10px;
+    padding: 9px!important;
+    text-align: center;
+    background: #ffffff;
+    border: 0.1em solid #999999;
+    font-weight: bold;
+    color: #6d6e72;
+}
+
+#calendar_wrap .wp-cal-datepicker-calendar tr td{
+    font-size: 11px;
+    line-height: 10px;
+    padding: 9px!important;
+    text-align: center;
+    background: #f1f1f1;
+    border: 0.1em solid #999999;
+    font-weight: normal;
+    color: #000000 !important;
+}
+
+#calendar_wrap .wp-cal-datepicker-calendar tr td a{
+    color: #000000;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#calendar_wrap .wp-cal-datepicker-calendar tr td a:hover{
+    color: #0;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#calendar_wrap .ui-datepicker-title span{
+    color: #FFFFFF;
+}
+
+#calendar_wrap .calendar-pagi{
+    background: none repeat scroll 0 0 #6d6e72;
+    float: left;
+    font-weight: bold;
+    width: 97%;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 96.5% \9;
+    width: 96.5% \0/;
+}
+
+#calendar_wrap .calendar-pagi ul li a{
+    color: #FFFFFF !important;
+    cursor: pointer;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+#calendar_wrap .calendar-pagi ul li a:hover{
+    color: #000000 !important;
+    cursor: pointer;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+#calendar_wrap .calendar-pagi ul li.wp-cal-prev{
+    float: left;
+}
+
+#calendar_wrap .calendar-pagi ul li.wp-cal-next{
+    float: right;
+}
+
+#calendar_wrap .wp-cal-datepicker-calendar tr td .wp-cal-tooltip {
+    background-color: #6d6e72;
+    border: 1px solid #A2A3A4 !important;
+    border-radius: 0 0 0 0 !important;
+    box-shadow: 0 2px 4px rgba(50, 50, 50, 0.63);
+    border-radius: 0px;
+    display: none;
+    padding: 7px;
+    position: absolute;
+    text-align: left;
+    width: 230px;
+    z-index: 10000;
+    width: 230px \9;
+    width: 230px \0/;
+}
+
+#calendar_wrap .wp-cal-datepicker-calendar tr td .wp-cal-tooltip ul li{
+    background-color: #FFF !important;
+    border-radius: 0px 0px 0px 0px;
+    color: #FFFFFF;
+    width: 93%;
+    display: block;
+    font-family: arial;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 1.1em;
+    margin-top: 2px;
+    padding: 8px;
+    text-decoration: none;
+    float: left;
+    float: left\9;
+    float: left\0/;
+}
+
+#calendar_wrap .wp-cal-datepicker-calendar tr td .wp-cal-tooltip ul li span{
+    float: left;
+    width: 100%;
+    line-height: 15px;
+    color:#6d6e72;
+}
+
+#calendar_wrap .wp-cal-datepicker-calendar tr td .wp-cal-tooltip ul li span a{
+    color: #6d6e72!important;
+    text-decoration: underline;
+}
+
+#calendar_wrap .wp-cal-datepicker-calendar tr td .wp-cal-tooltip ul li span a:hover{
+    color: #000000!important;
+    text-decoration: underline;
+}
+
+#calendar_wrap .wp-cal-datepicker-calendar tr td .wp-cal-tooltip ul li span{
+    float: left \9;
+    width: 90% \9;
+    float: left \0/;
+    width: 90% \0/;
+}
+
+#calendar_wrap .wp-cal-datepicker-calendar tr td .wp-cal-tooltip ul li a .title {
+    color: #6d6e72;
+    display: block;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-bottom: 0px \9;
+    margin-bottom: 0px \0/;
+}
+
+#calendar_wrap .wp-cal-datepicker-calendar tr td .wp-cal-tooltip ul li a .title:hover {
+    color: #000;
+    display: block;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    *color: #000;
+    _color : #000;
+    margin-bottom: 0px \9;
+    margin-bottom: 0px \0/;
+}
+
+#calendar_wrap .wp-cal-datepicker-calendar tr td .wp-cal-tooltip ul {
+    float: left;
+    font-size: 15px;
+    margin: 0;
+    width: 100%;
+}
+
+#calendar_wrap .wp-cal-datepicker-calendar tr td .wp-cal-tooltip ul li a .author {
+    font-style: normal;
+    padding-top: 3px;
+    color: #6d6e72 !important;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#calendar_wrap .wp-cal-datepicker-calendar tr td .wp-cal-tooltip ul li a .author:hover {
+    font-style: normal;
+    padding-top: 3px;
+    color: #000000;
+    font-size: 12px;
+    font-weight: normal;
+    *color: #000;
+    _color : #000;
+}
+
+#calendar_wrap .wp-cal-datepicker-calendar tr td .wp-cal-tooltip ul li a span {
+    display: block;
+    font-size: 11px;
+    font-weight: normal;
+    color: #000;
+}
+
+#calendar_wrap .wp-cal-datepicker-calendar tr td .wp-cal-tooltip span.date {
+    color: #FFF;
+    float: left;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    width: 100%;
+}
+
+#calendar_wrap .wp-cal-datepicker-calendar tr td .wp-cal-tooltip ul li a .comments {
+    font-style: normal;
+    padding-top: 3px;
+    color: #6d6e72;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#calendar_wrap .wp-cal-datepicker-calendar tr td .wp-cal-tooltip ul li a .comments:hover {
+    font-style: normal;
+    padding-top: 3px;
+    color: #000;
+    font-size: 12px;
+    font-weight: normal;
+    *color: #000;
+    _color : #000;
+}
+
+#calendar_wrap .wp-cal-datepicker-calendar tr td .wp-cal-tooltip ul li a .category {
+    font-style: italic;
+    padding-top: 3px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#calendar_wrap .wp-cal-datepicker-calendar tr td .wp-cal-tooltip ul li a .category:hover {
+    color: #000;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#calendar_wrap .wp-cal-datepicker-calendar tr td.WP-Cal-popup {
+    background: #ffd600 !important;
+    border-radius: 0 0 0 0;
+    font-weight: bold;
+    text-decoration: none;
+    color: #1982D1;
+}
+
+#calendar_wrap .wp-cal-datepicker-calendar tr td.WP-Cal-popup a span{
+    font-weight: bold;
+    text-decoration: none;
+    color: #FF0000;
+}
+
+#calendar_wrap .wp-cal-datepicker-calendar tr td.WP-Cal-popup a span:hover{
+    font-weight: bold;
+    text-decoration: none;
+    color: #ff0000;
+}
+.widget_calendar{
+    margin-bottom: 5px;
+}
+
+.wp_calander a.wp_calendar_url{
+    color: #A52A2A !important;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.wp_calander a.wp_calendar_url:hover{
+    color: #A52A2A !important;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+.wp_calander .WP-Cal-popup .wp-cal-tooltip{
+    display: none;
+}
+
+/*********************************** Calendar Size Style ***********************************/
+
+.widget_calendar_medium_size {
+    min-width: 242px !important;
+    width: 242px;
+    width: 251px \9 !important;
+    width: 253px \0/ !important;
+}
+
+.widget_calendar_small_size {
+    min-width: 192px !important;
+    width: 192px !important;
+    width: 201px \9 !important;
+    width: 203px \0/ !important;
+}
+
+.widget_calendar_large_size {
+    min-width: 392px !important;
+    width: 392px !important;
+    width: 401px \9 !important;
+    width: 403px \0/ !important;
+}
+.widget_calendar_small_size #calendar_wrap .wp-cal-datepicker-calendar tr td .wp-cal-tooltip span.date{padding: 3px; font-size: 12px;}
+.widget_calendar_small_size #calendar_wrap .ui-datepicker-header{width: 96%;}
+.widget_calendar_small_size #calendar_wrap .ui-datepicker-title{width: 75%;}
+.widget_calendar_small_size #calendar_wrap .ui-datepicker-header { font-size: 11px; }
+.widget_calendar_small_size #calendar_wrap .wp-cal-datepicker-calendar tr th{font-size: 9px;}
+.widget_calendar_small_size #calendar_wrap .wp-cal-datepicker-calendar tr td{font-size: 10px;}
+.widget_calendar_small_size #calendar_wrap .wp-cal-datepicker-calendar tr td a{font-size: 9px;}
+.widget_calendar_small_size #calendar_wrap .wp-cal-datepicker-calendar tr td a:hover{font-size: 9px;}
+.widget_calendar_small_size #calendar_wrap .calendar-pagi ul li a{font-size: 10px;}
+.widget_calendar_small_size #calendar_wrap .calendar-pagi ul li a:hover{font-size: 10px;}
+.widget_calendar_small_size #calendar_wrap .wp-cal-datepicker-calendar tr td .wp-cal-tooltip ul li{font-size: 10px;}
+.widget_calendar_small_size #calendar_wrap .wp-cal-datepicker-calendar tr td .wp-cal-tooltip ul li a .title{font-size: 13px;}
+.widget_calendar_small_size #calendar_wrap .wp-cal-datepicker-calendar tr td .wp-cal-tooltip ul li a .title:hover{font-size: 13px;}
+.widget_calendar_small_size #calendar_wrap .wp-cal-datepicker-calendar tr td, .widget_calendar_small_size #calendar_wrap .wp-cal-datepicker-calendar tr th{padding: 7px !important; line-height: 7px !important;}
+.widget_calendar_small_size #calendar_wrap .ui-datepicker-header{padding: 4px;}
+.widget_calendar_small_size #calendar_wrap .calendar-pagi{padding: 4px;}
+
+.widget_calendar_large_size #calendar_wrap .ui-datepicker-header { font-size: 15px; }
+.widget_calendar_large_size #calendar_wrap .wp-cal-datepicker-calendar tr th{font-size: 14px;}
+.widget_calendar_large_size #calendar_wrap .wp-cal-datepicker-calendar tr td{font-size: 14px;}
+.widget_calendar_large_size #calendar_wrap .wp-cal-datepicker-calendar tr td a{font-size: 14px;}
+.widget_calendar_large_size #calendar_wrap .wp-cal-datepicker-calendar tr td a:hover{font-size: 14px;}
+.widget_calendar_large_size #calendar_wrap .calendar-pagi ul li a{font-size: 14px;}
+.widget_calendar_large_size #calendar_wrap .calendar-pagi ul li a:hover{font-size: 14px;}
+.widget_calendar_large_size #calendar_wrap .wp-cal-datepicker-calendar tr td .wp-cal-tooltip ul li{font-size: 13px;}
+.widget_calendar_large_size #calendar_wrap .wp-cal-datepicker-calendar tr td .wp-cal-tooltip ul li a .title{font-size: 16px;}
+.widget_calendar_large_size #calendar_wrap .wp-cal-datepicker-calendar tr td .wp-cal-tooltip ul li a .title:hover{font-size: 16px;}
+.widget_calendar_large_size #calendar_wrap .wp-cal-datepicker-calendar tr td, .widget_calendar_large_size #calendar_wrap .wp-cal-datepicker-calendar tr th{padding: 11px; line-height: 15px;}
+.widget_calendar_large_size #calendar_wrap .ui-datepicker-header{padding: 8px;}
+.widget_calendar_large_size #calendar_wrap .calendar-pagi{padding: 7px;}
+
+.widget_calendar_small_size #calendar_wrap .ui-datepicker-title{float: none; margin: 0 auto;}
+.wp_calendar .calendar_wrap_loading {margin: 0px auto ! important; width: 50% !important; text-align: center !important; position: relative !important;}
+.wp_calendar .calendar_wrap_loading_hide{display: none;}
+.wp_calendar .calendar_wrap_loading_show{display: block;}
