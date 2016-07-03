@@ -1,9 +1,21 @@
+#wrapper {
+	width: 800px;
+	margin: 0 auto;
+	border: 3px solid #2A1506;
+    padding: 10px;
+}
+
 body {
 	background-color: #f3f8f1;
 }
 
+nav {
+	margin: 0 auto;
+	text-align: center;
+}
 
 ul {
+	display: inline-block;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -12,15 +24,28 @@ ul {
 }
 
 li {
-	float: center;
+	float: left;
 }
 
 li a {
-    display: inline;
+    display: block;
     color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+li a:hover {
+    background-color: #B299CC;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+p {
+	text-align: center;
 }
 
 
