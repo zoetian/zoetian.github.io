@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 
-	<html lang="en">
+<html lang="en">
 	<!-- Minimal Checklist
 	 1) SEO and GA 
 	 2) Responsive - PC & mobile
 	 3) Screenshots and links to projects
-	 -->
+	-->
 
 	 <!-- Extended 
 	 1) Frameworks&&Tools amap
@@ -13,10 +13,12 @@
 	-->
 
 	<head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<meta name="keywords" content="Zoe Tian, zoe tian, zoetian, w3tian, Waterloo, uwaterloo"/>
 		<meta name="description" content="About - Zoe Tian"/>
 		<link type="text/css" rel="stylesheet" href="style.css"/>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
 
 		<!--script async="" src="./z/analytics.js"></script><script>(function(){document.documentElement.className='js'})();</script-->
 		<title>Zoe Tian</title>
@@ -24,35 +26,67 @@
 	</head>
 	
 	<body>
-		<div id="wrapper">
-		<header>
+		<div id="container" width = "100%">
+			<header>
 
-		<img src="media/luck.png" alt="testing_image" width="100%" height="400px">
+				<img src="media/luck.png" alt="testing_image" width="100%" height="300px">
 
-		<br>
-		<nav>
-			<ul> <li> <a target="_blank" href="https://github.com/ZOETIAN">Github</a> </li> 
-				 <li> <a target="_blank" href="http://devpost.com/zoetian">Devpost</a> </li> 
-				 <li> <a target="_blank" href="https://www.douban.com/people/70252736/">Douban</a> </li> 
-				 <li> <a target="_blank" href="#">Contact</a> </li> 
-			</ul> 
-		</nav>
+				<br>
+				<nav>
+					<ul> <li> <a target="_blank" href="https://github.com/ZOETIAN">Github</a> </li> 
+						<li> <a target="_blank" href="http://devpost.com/zoetian">Devpost</a> </li> 
+						<li> <a target="_blank" href="https://www.douban.com/people/70252736/">Douban</a> </li> 
+						<li> <a target="_blank" href="#">Contact</a> </li> 
+					</ul> 
+				</nav>
 
-		<br>
-		<img src="media/triangle.jpg" alt="testing_image">
-	    
-	    </header>
-	    	<p>UNDER CONSTRUCTION.</p>
-		<!--script>
-		
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-76966010-1', 'auto');
-		ga('send', 'pageview');
-		
+				<br>
+				<img src="media/triangle.jpg" alt="testing_image">
+
+			</header>
+			<p>UNDER CONSTRUCTION.</p>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<!--script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script-->
+		<script type="text/javascript" src="js/rp.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+
+		<script type="text/javascript">
+		$(document).ready(function () {
+			$('container').restive(options);
+		});
+		</script>
+
+
+		<!--script type="text/javascript">
+		$.restive.startMulti();
+
+		$('body').restive({
+			platform: 'ios', 
+			breakpoints: ['240', '320', '480', '640', '960', '1024'],
+			classes: ['css-i-240', 'css-i-320', 'css-i-480', 'css-i-640', 'css-i-960', 'css-i-1024']
+		});
+
+		$('body').restive({
+			platform: 'android', 
+			breakpoints: ['240', '320', '480', '640', '960', '1024'],
+			classes: ['css-a-240', 'css-a-320', 'css-a-480', 'css-a-640', 'css-a-960', 'css-a-1024']
+		});
+
+		$.restive.endMulti();
 		</script-->
-	</div>
-	</body>
+
+
+		<!--script>
+			
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-76966010-1', 'auto');
+			ga('send', 'pageview');
+			
+		</script-->
+</body>
 </html>
