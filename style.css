@@ -1,3 +1,15 @@
+@font-face {
+	font-family:'Quicksandbox';
+	src:url('fonts/Quicksand_Book-webfont.eot');
+	src:url('fonts/Quicksand_Book-webfont.eot#iefix')format('embedded-ontype'),
+		url('fonts/Quicksand_Book-webfont.woff')format('woff'),
+		url('fonts/Quicksand_Book-webfont.ttf')format('truetype'),
+		url('fonts/Quicksand_Book-webfont.svg#QuicksandBook')format('svg');
+	font-weight:normal;
+	font-style:normal;
+}
+
+
 #container {
 	width: 800px;
 	margin: 0 auto;
@@ -8,11 +20,13 @@
 
 body {
 	background-color: #f3f8f1;
+	margin: 0 auto;
 	overflow: hidden;
 }
 
 nav {
 	width: 100%;
+	margin: 0 auto;
 	text-align: center;
 }
 
