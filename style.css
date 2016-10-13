@@ -310,11 +310,6 @@ button:hover {
   .butFrame {
     display:block;
   }
-
-	button {
-		display: flex;
-		width: 30%;
-	}
 }
 
 @media all and (max-width: 700px) and (min-width: 0px){
@@ -322,4 +317,10 @@ button:hover {
     display:block;
     width:100%;
   }
+}
+
+@media all and (max-width: 650px) and (min-width: 0px){
+	button {
+		display: block;
+	}
 }
