@@ -8,8 +8,9 @@
 
 body {
 	background-color: #f3f8f1;
-	margin: 0 auto;
-	overflow: hidden;
+	margin: 60px auto;
+	font-family: 'open sans';
+	max-width: 1200px;
 }
 
 /* text and image */
@@ -21,7 +22,6 @@ img {
 p {
 	text-align: center;
 }
-
 
 /* pikachu */
 .loading {
@@ -128,7 +128,14 @@ button:hover {
 }
 
 /* PROJECT DISPLAY */
-body {font-family: 'open sans'; max-width: 1200px; margin: 60px auto;} .buttons {display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start;}
+.buttons {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
 
 .buttons * {
   transition: all .5s ease;
@@ -218,8 +225,8 @@ body {font-family: 'open sans'; max-width: 1200px; margin: 60px auto;} .buttons 
   font-family: inherit;
 }
 
-.butFrame .butHeading .butText {
-  font-weight: 300;
+.butFrame .butHeading {
+  font-weight: 100;
 }
 
 .butFrame .butHeading,
@@ -300,19 +307,19 @@ body {font-family: 'open sans'; max-width: 1200px; margin: 60px auto;} .buttons 
 }
 
 @media all and (max-width: 950px) and (min-width: 701px){
-
   .butFrame {
     display:block;
-    width:47%;
   }
 
+	button {
+		display: flex;
+		width: 30%;
+	}
 }
 
 @media all and (max-width: 700px) and (min-width: 0px){
-
   .butFrame {
     display:block;
     width:100%;
   }
-
 }
