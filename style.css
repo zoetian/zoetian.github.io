@@ -1,9 +1,50 @@
+/* PIKACHU */
+.preloading{
+  animation-name:anime;
+  animation-duration:2s;
+  animation-delay:2s;
+  animation-fill-mode:forwards;
+}
+
 #container {
-	width: 800px;
-	margin: 0 auto;
-	/*border: 3px solid #2A1506;*/
-	padding: 10px;
-	position: relative;
+	opacity:0;
+  animation-name:anime2;
+  animation-duration:1s;
+  animation-delay:3s;
+  animation-fill-mode:forwards;
+}
+
+@keyframes anime{
+  0%{
+    opacity:1;
+  }
+  100%{
+    opacity:0;
+  }
+}
+@-webkit-keyframes anime{
+  0%{
+    opacity:1;
+  }
+  100%{
+    opacity:0;
+  }
+}
+@keyframes anime2{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
+}
+@-webkit-keyframes anime2{
+  0%{
+    opacity:0;
+  }
+  100%{
+    opacity:1;
+  }
 }
 
 body {
@@ -13,7 +54,7 @@ body {
 	max-width: 1200px;
 }
 
-/* text and image */
+/* TEXT AND IMAGE */
 img {
 	display: block;
 	margin: auto;
@@ -23,20 +64,7 @@ p {
 	text-align: center;
 }
 
-/* pikachu */
-.loading {
-    width: 100%;
-		background-color: #f3f8f1;
-    display: fixed;
-}
-
-.loading img {
-    display: block;
-    min-height: 209px;
-    min-width: 200px;
-}
-
-/* nav buttons */
+/* NAV BUTTONS */
 button {
   color: #454545;
   background: transparent;
