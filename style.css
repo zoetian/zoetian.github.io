@@ -10,7 +10,7 @@
 	opacity:0;
   animation-name:anime2;
   animation-duration:1s;
-  animation-delay:3s;
+  animation-delay:4s;
   animation-fill-mode:forwards;
 }
 
@@ -18,27 +18,15 @@
   0%{
     opacity:1;
   }
-  100%{
-    opacity:0;
-  }
-}
-@-webkit-keyframes anime{
-  0%{
-    opacity:1;
+  99% {
+    height: auto;
   }
   100%{
     opacity:0;
+    height: 0px;
   }
 }
 @keyframes anime2{
-  0%{
-    opacity:0;
-  }
-  100%{
-    opacity:1;
-  }
-}
-@-webkit-keyframes anime2{
   0%{
     opacity:0;
   }
@@ -157,11 +145,7 @@ button:hover {
 
 /* PROJECT DISPLAY */
 .buttons {
-	display: -webkit-flex;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-align-items: flex-start;
-	-ms-flex-align: start;
 	align-items: flex-start;
 }
 
@@ -170,11 +154,7 @@ button:hover {
 }
 
 .buttons {
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -182,20 +162,22 @@ button:hover {
   position: relative;
   overflow: hidden;
   margin: 5px;
-  width: 24%;
-  background: #111;
+  width: 40%;
+  background: #111 center 25% no-repeat;
+  background-size: cover;
   font-family: inherit;
   font-size: 1em;
   text-align: center;
   cursor: pointer;
 }
 
+.butFrame.waldo { background-image: url('assets/waldo.jpg'); }
+.butFrame.ppts { background-image: url('assets/ppts.jpg'); }
+.butFrame.gift { background-image: url('assets/gift.jpg'); }
+.butFrame.parl { background-image: url('assets/parl.jpg'); }
+
 .butFrame img {
-  position: relative;
-  display: block;
-  max-width: 100%;
-  opacity: 0.8;
-  position: absolute;
+  display: none;
 }
 
 .buttons > .butHeading {
@@ -217,14 +199,12 @@ button:hover {
   color: #fff;
   text-transform: uppercase;
   font-size: 1.25em;
-  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
 .butFrame .butTextWrap::before,
 .butFrame .butTextWrap::after {
   pointer-events: none;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 }
@@ -285,35 +265,28 @@ button:hover {
   left: 10px;
   content: '';
   opacity: 0;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
 }
 .butFrame .butTextWrap::before {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
-  -webkit-transform: scale(0, 1);
   transform: scale(0, 1);
 }
 .butFrame .butTextWrap::after {
   border-right: 1px solid #fff;
   border-left: 1px solid #fff;
-  -webkit-transform: scale(1, 0);
   transform: scale(1, 0);
   box-sizing: border-box;
 }
 .butFrame .butHeading {
   padding-top: 10%;
-  -webkit-transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
-  -webkit-transform: translate3d(0, -20px, 0);
   transform: translate3d(0, -20px, 0);
 }
 .butFrame p {
   padding: 10px 2.5em;
   opacity: 0;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(0, 20px, 0);
   transform: translate3d(0, 20px, 0);
 }
 
@@ -324,13 +297,11 @@ button:hover {
 .butFrame:hover .butTextWrap::before,
 .butFrame:hover .butTextWrap::after {
   opacity: 1;
-  -webkit-transform: scale(1);
   transform: scale(1);
 }
 .butFrame:hover .butHeading,
 .butFrame:hover p {
   opacity: 1;
-  -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
 
