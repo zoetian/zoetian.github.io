@@ -1,37 +1,37 @@
 /* PIKACHU */
 .preloading{
-  animation-name:anime;
-  animation-duration:2s;
-  animation-delay:2s;
-  animation-fill-mode:forwards;
+  animation-name: anime;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
 }
 
 #container {
 	opacity:0;
-  animation-name:anime2;
-  animation-duration:1s;
-  animation-delay:4s;
-  animation-fill-mode:forwards;
+  animation-name: anime2;
+  animation-duration: 1s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
 }
 
 @keyframes anime{
   0%{
-    opacity:1;
+    opacity: 1;
   }
   99% {
     height: auto;
   }
   100%{
-    opacity:0;
+    opacity: 0;
     height: 100px;
   }
 }
 @keyframes anime2{
   0%{
-    opacity:0;
+    opacity: 0;
   }
   100%{
-    opacity:1;
+    opacity: 1;
   }
 }
 
@@ -162,7 +162,7 @@ button:hover {
   position: relative;
   overflow: hidden;
   margin: 5px;
-  width: 40%;
+  width: 35%; /*TODO: vertically align*/
   background: #111 center 25% no-repeat;
   background-size: cover;
   font-family: inherit;
@@ -321,5 +321,13 @@ button:hover {
 @media all and (max-width: 650px) and (min-width: 0px){
 	button {
 		display: block;
+    /* TODO: fix the menu buttons*/
 	}
 }
+
+
+/*
+TODO:
+drift bot
+gif over https
+*/
