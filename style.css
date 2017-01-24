@@ -23,7 +23,7 @@
   }
   100%{
     opacity:0;
-    height: 0px;
+    height: 100px;
   }
 }
 @keyframes anime2{
