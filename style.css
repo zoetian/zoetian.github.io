@@ -64,7 +64,7 @@ h1 {
 h1.signature {
   letter-spacing: .15em;
   text-shadow: 1px -1px 0 #5A9475,
-  -1px 2px 1px #A7D4BD/*#737272*/,
+  -1px 2px 1px #A7D4BD,
   -2px 4px 1px #A7D4BD,
   -3px 6px 1px #787777,
   -4px 8px 1px #7b7a7a,
@@ -137,28 +137,28 @@ button:hover {
   margin: auto;
 }
 
-.purple button {
-  color: #00B89D;/*#B299CC;*/
-  border-color: #00B89D;/*#B299CC;*/
+.wildGreen button {
+  color: #00B89D;
+  border-color: #00B89D;
 }
 
-.purple button:before,
-.purple button:after {
-  border-color: #00B89D;/*#B299CC;*/
+.wildGreen button:before,
+.wildGreen button:after {
+  border-color: #00B89D;
 }
 
-.purple button:hover:before,
-.purple button:hover:after {
-  border-color: #00B89D;/*#B299CC;*/
+.wildGreen button:hover:before,
+.wildGreen button:hover:after {
+  border-color: #00B89D;
 }
 
-.purple button:hover {
+.wildGreen button:hover {
   color: #fff;
-  background-color: #00B89D;/*#B299CC;*/
-  border-color: #00B89D;/*#B299CC;*/
+  background-color: #00B89D;
+  border-color: #00B89D;
 }
 
-.purple .panel {
+.wildGreen .panel {
   max-width: 960px;
   text-align: center;
   position: relative;
@@ -184,7 +184,7 @@ button:hover {
   position: relative;
   overflow: hidden;
   margin: 5px;
-  width: 35%; /*TODO: vertically align*/
+  width: 35%;
   background: #111 center 25% no-repeat;
   background-size: cover;
   font-family: inherit;
@@ -343,6 +343,14 @@ button:hover {
 @media all and (max-width: 650px) and (min-width: 0px){
 	button {
 		display: block;
-    /* TODO: fix the menu buttons*/
+    width: 100%;
+    margin: 5px auto;
 	}
 }
+/*
+TODO:
+toggle button for nav buttons
+footer stuff
+animations for those we enable js
+change project images && gif
+*/
