@@ -23,7 +23,7 @@
   }
   100%{
     opacity: 0;
-    height: 100px;
+    height: 0;
   }
 }
 @keyframes anime2{
@@ -41,7 +41,6 @@ body {
 	font-family: 'open sans';
 	max-width: 1200px;
 }
-
 /* TEXT AND IMAGE */
 img {
 	display: block;
@@ -49,7 +48,30 @@ img {
 }
 
 p {
-	text-align: center;
+  text-align: center;
+}
+
+/* FOR SIGNATURE */
+h1 {
+  color: #00B89D;
+  font-family: "Monaco", "Cambria", "Georgia", "Verdana", "Helvetica", "Times";
+  /* http://www.cssfontstack.com/ */
+  font-size: 66px;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+}
+
+h1.signature {
+  letter-spacing: .15em;
+  text-shadow: 1px -1px 0 #5A9475,
+  -1px 2px 1px #A7D4BD/*#737272*/,
+  -2px 4px 1px #A7D4BD,
+  -3px 6px 1px #787777,
+  -4px 8px 1px #7b7a7a,
+  -5px 10px 1px #7f7d7d,
+  -6px 12px 1px #828181,
+  -7px 14px 1px #868585,
+  -8px 16px 1px #8b8a89;
 }
 
 /* NAV BUTTONS */
@@ -116,24 +138,24 @@ button:hover {
 }
 
 .purple button {
-  color: #B299CC;
-  border-color: #B299CC
+  color: #00B89D;/*#B299CC;*/
+  border-color: #00B89D;/*#B299CC;*/
 }
 
 .purple button:before,
 .purple button:after {
-  border-color: #B299CC
+  border-color: #00B89D;/*#B299CC;*/
 }
 
 .purple button:hover:before,
 .purple button:hover:after {
-  border-color: #B299CC;
+  border-color: #00B89D;/*#B299CC;*/
 }
 
 .purple button:hover {
   color: #fff;
-  background-color: #B299CC;
-  border-color: #B299CC;
+  background-color: #00B89D;/*#B299CC;*/
+  border-color: #00B89D;/*#B299CC;*/
 }
 
 .purple .panel {
@@ -324,10 +346,3 @@ button:hover {
     /* TODO: fix the menu buttons*/
 	}
 }
-
-
-/*
-TODO:
-drift bot
-gif over https
-*/
