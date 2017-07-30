@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/zoetian
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://zoetian.me
+  * I am zoetian (https://keybase.io/zoetian) on keybase.
+  * I have a public key with fingerprint B3E2 5005 BD17 8101 EE3F  3EAB F706 9B92 1474 56E9
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101139daf0b8a2e99235008a071ab5f43a6187ca2df9dcc144e062a7d854769f4c70a",
+      "fingerprint": "b3e25005bd178101ee3f3eabf7069b92147456e9",
+      "host": "keybase.io",
+      "key_id": "f7069b92147456e9",
+      "kid": "0101139daf0b8a2e99235008a071ab5f43a6187ca2df9dcc144e062a7d854769f4c70a",
+      "uid": "c3ab2725fb471e9db8584fbc54fc6b19",
+      "username": "zoetian"
+    },
+    "service": {
+      "hostname": "zoetian.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1501387197,
+  "expire_in": 157680000,
+  "prev": "6c957646184076337889ecf28f202cab6b759c91cc83083000975ccf09b9f204",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.73
+Comment: https://keybase.io/crypto
+
+yMIjAnicrVJ9aE5RHH43Rt5sISIx6yrFXpz7ee59J1KmfM3XNNZ4nXPuue+uce/r
+3rsxa0Ki1piPrUZk0yaf4Z2PWdF8L2/LKFFiifl6k5X8IRbnLv5Q/nQ6dfo9Pc/z
+e36/zp30AYFgit549PBkYU5WSuJmXWlgVeWq6xUctvVyLlzBldD+h67XqetFSkyd
+C3OABzwvajoyAFaRQDVNEGUAVAQgj7BsSCJSeBUSJOiGphPCSxIFioCgrsoSVDRD
+IhAgLsQZphWlTswxLY/ZYpEKzEbGOg9V1oJS0RApwgYEioY1gZegJCtUY8Ji2/UV
+LBxGLp1m2gxjRaQ/3j/4/zl3ab8dEREWoCAbWII81XSsyqpkYCJLBlEw7/ctdalj
+oQ2UsbfY1DORxVWGOAaWmYT6e/UH+ZswjRUhLubYnk3s9Qwv9ryYG/Z1XnnMJ26i
+OPLbIoJNS2dLZIoy6rimbXFhnjGJZ/qevAx4UYW8BkMc3RwzHRoxfYYMFRWw4/eh
+ZcxSIRrDJDa9BKAiilBVNUoMQTUEIBCEFQxljWg8IaoI2AVAgzIhBmB7ZhSJ84fa
+aNnMW2A5UZR5umbUQl6pQ7nKW+1FAwMpwcCgtFT/dwWCQ4b9+XMrawf3DauNPb+W
+0Z1obakevi+v98iNpWGppnqM3TFuUbTP7Imntm8s+unMPFv18u62scllzRmJdZM6
+Oxv2TqqPZ0Y+lBWu+JJ3b/HTj5Gm+TD3fv5DvmtlLt3a8Knp69LLV7tPu42Tk9mZ
+mRuCJRX71uQIOVtS34HZoSl57+vnpfV8zo7F64+fHDHy1II2fLYjGR0PK/Ye2G4t
+vDJ67uc68dyl8+PihWd6xQlf2rJM7kkXfXlx6i7U/Crc2lKQfHQ7MWrHsxeP9184
+VLO8oFoq6OgeemBP5sEZA6qSx+70VBel13StnvW9avqJ1+M/hH40vBl8rDXlWTzr
+W6+z9u3OB28yno6cmL8ke/cvqcRAwg==
+=H/ZT
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/zoetian
+
+==================================================================
