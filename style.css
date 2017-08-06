@@ -35,10 +35,11 @@
   }
 }
 
-body {
+html, body {
 	background-color: #f3f8f1;
 	margin: 60px auto;
 	font-family: 'open sans';
+	width: 100%;
 	max-width: 1200px;
 }
 /* TEXT AND IMAGE */
