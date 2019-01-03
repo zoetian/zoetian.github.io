@@ -7,30 +7,30 @@
 }
 
 #container {
-	opacity:0;
+  opacity:0;
   animation-name: anime2;
   animation-duration: 1s;
   animation-delay: 4s;
   animation-fill-mode: forwards;
 }
 
-@keyframes anime{
-  0%{
+@keyframes anime {
+  0% {
     opacity: 1;
   }
   99% {
     height: auto;
   }
-  100%{
+  100% {
     opacity: 0;
     height: 0;
   }
 }
-@keyframes anime2{
-  0%{
+@keyframes anime2 {
+  0% {
     opacity: 0;
   }
-  100%{
+  100% {
     opacity: 1;
   }
 }
@@ -348,10 +348,3 @@ button:hover {
     margin: 5px auto;
 	}
 }
-/*
-TODO:
-toggle button for nav buttons
-footer stuff
-animations for those we enable js
-change project images && gif
-*/
