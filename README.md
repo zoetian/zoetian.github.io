@@ -1,14 +1,11 @@
-8012/9012 potential updates:
-top 6:
-- image filter (with ui plz)
-- midi-melody (deploy it to heroku girl =.=)
-- where's waldo (adjustment on ui and ending scene)
-- things to food (move to a later version of android api plz)
-- tat instagram app u did in android (move it to RoR)
-- paper doll model (update the image scaling & transparent background)
+Things I want to finish this year:
 
-- fix the icon 
-- remove the drift message thingy
+- quick map project for distance comparing and search on map
+- task scheduling
+- a sketch of tiny database model
+- redo another new version of image similarity search
+
 - adding the blog (post about docker swarm)
-
-- good luck cat
+- in blog posts: adding the reading notes on DDIA, and the understanding of each chapters
+- in blog posts: adding notes on data structure and algo. notes
+  
